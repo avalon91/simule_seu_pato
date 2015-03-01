@@ -1,4 +1,4 @@
 class pato:
-    def _init_(this):
-        this.voo='voando com asas'
-        this.nadar='nadando naturalmente'
+    def __init__(this):
+        this.voo = 'voando com asas'
+        this.nadar = 'nadando naturalmente'
