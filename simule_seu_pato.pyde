@@ -1,22 +1,19 @@
 from pato import *
 from patoDeBorracha import *
 from patoSelvagem import *
+from parent import *
 
 def setup():
-    size(400,400)
+    size(600,400)
     background(234)
     
-    b=patoSelvagem()
+    p= patoSelvagem()
+    println(p.getNado())
     
-    println(b.voo)
-    println(b.nadar)
-    
-<<<<<<< HEAD
 def draw():    
-    #
-=======
-def draw():
     return
 
-#http://pt.wikibooks.org/wiki/Python/Conceitos_b%C3%A1sicos/Heran%C3%A7a_e_polimorfismo
->>>>>>> afb8af06e19ef59fde9288ed8c3c5161455b5a9c
+
+
+#novo link para aprendizagem
+#http://www.tutorialspoint.com/python/python_classes_objects.htm
