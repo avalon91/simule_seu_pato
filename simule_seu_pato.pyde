@@ -37,9 +37,6 @@ def draw():
     fill(0,0,220)
     noStroke()
     rect(0,height/2 - 50, width, 100)
-
-    println(b.voo)
-    println(b.nadar)
     
 #links para aprendizagem
 #http://www.tutorialspoint.com/python/python_classes_objects.htm
